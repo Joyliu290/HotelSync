@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputUserName"
+
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:hint="3-6 Characters"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textSize="17dp"
+        android:layout_toLeftOf="@+id/inputUserName"
+        android:layout_alignBottom="@+id/inputUserName"
+        android:layout_marginBottom="7dp"
+        android:id="@+id/userNameText"
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/inputPassword"
+        android:layout_below="@+id/inputUserName"
+        android:layout_marginTop="20dp"
+        android:hint="3-6 Characters"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="17dp"
+        android:layout_toLeftOf="@+id/inputPassword"
+        android:layout_alignBottom="@+id/inputPassword"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/passwordText"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/inputPassword"
+        android:id="@+id/signInButton"
+        android:layout_marginTop="20dp"
+        android:text="Sign In"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpText"
+        android:text="If you're a New Guest "
+        android:layout_below="@+id/signInButton"
+        android:layout_alignLeft="@+id/userNameText"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpLinkText"
+        android:text="Sign Up Now!"
+        android:textColor="@color/colorAccent"
+        android:clickable="true"
+        android:visibility="visible"
+        android:layout_below="@+id/signInButton"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:layout_toRightOf="@+id/signUpText"
+
+        />
+
+</RelativeLayout>

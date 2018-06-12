@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "625101186998",
+    "firebase_url": "https://hotelsyncauth.firebaseio.com",
+    "project_id": "hotelsyncauth",
+    "storage_bucket": "hotelsyncauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625101186998:android:330356782359e371",
+        "android_client_info": {
+          "package_name": "project.hotelsync.com.hotelsync"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625101186998-08nmnfk1pt4b43fk450q5mihau94tuv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.hotelsync.com.hotelsync",
+            "certificate_hash": "f5b444a9e8f0428cc25feed63502542761a4b05f"
+          }
+        },
+        {
+          "client_id": "625101186998-4sibgmk80cji6sv5ji9mjhs50c04jp7a.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "625101186998-4sibgmk80cji6sv5ji9mjhs50c04jp7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAblXXQm9UZ0aaCw1gkP1gBulIxutEVBQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625101186998-4sibgmk80cji6sv5ji9mjhs50c04jp7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
